@@ -59,7 +59,61 @@
 //a) fes-ho amb instruccions if.
 //b) fes-ho amb un switch.
 
+// a)
+// Scanner sc = new Scanner(System.in);
+//                System.out.println("introduzca el Dia de la semana:");
+//                int dia = sc.nextInt();
+//
+//                if (dia == 1) {
+//                System.out.println("Domingo");
+//                }
+//                else if (dia == 2){
+//                System.out.println("Lunes");
+//                }
+//                else if (dia == 3){
+//                System.out.println("Martes");
+//                }
+//                else if (dia == 4){
+//                System.out.println("Miercoles");
+//                }
+//                else if (dia == 5){
+//                System.out.println("Jueves");
+//                }
+//                else if (dia == 6){
+//                System.out.println("Viernes");
+//                }
+//                else {
+//                System.out.println("Sabado");
+//                }
 
+//  b)
+//  Scanner sc = new Scanner(System.in);
+//                System.out.println("introduzca el Dia de la semana:");
+//                int dia = sc.nextInt();
+//
+//        switch(dia){
+//            case 1:
+//                System.out.println("Domingo");
+//                break;
+//            case 2:
+//                System.out.println("Lunes");
+//                break;
+//            case 3:
+//                System.out.println("Martes");
+//                break;
+//            case 4:
+//                System.out.println("Miercoles");
+//                break;
+//            case 5:
+//                System.out.println("Jueves");
+//                break;
+//            case 6:
+//                System.out.println("Viernes");
+//                break;
+//            default:
+//                System.out.println("Sabado");
+//
+//        }
 
 
 //Exercicio 5
@@ -68,6 +122,25 @@
 //8 i les 12 ens trobam al mati, si es entre las 12 i les 17 ens trobam al migdia, si ens
 //trobam entre les 17 i les 20 ens trobam a l'horabaixa, i de 20 a 23 ens trobam al vespre.
 
+//Scanner sc = new Scanner(System.in);
+//        System.out.println("introduzca una hora entera:");
+//        int hora = sc.nextInt();
+//
+//        if ( hora >= 8 && hora < 12 ){
+//            System.out.println( hora+ " es Mati");
+//        }
+//        else if ( hora >= 12 && hora < 17 ){
+//            System.out.println(hora+ " es Migdia");
+//        }
+//        else if ( hora >= 17 && hora < 20 ){
+//            System.out.println(hora+ " es Horabaixa");
+//        }
+//        else if(hora >= 20 && hora < 23 ){
+//            System.out.println(hora+ " es vespre");
+//        }
+//        else{
+//            System.out.println(hora+ " es madrugada");
+//        }
 
 
 
