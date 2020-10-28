@@ -148,14 +148,39 @@
 //Demanar un numeor nota per teclat i dir si es insuficient (0-4), suficient (5), be (6),
 //notable(7,8) o excel·lent(9,10).
 
-
+//Scanner sc = new Scanner(System.in);
+//        System.out.println("introduzca una nota:");
+//        int nota = sc.nextInt();
+//
+//        if ( nota >= 0 && nota <= 4 ){
+//                System.out.println("insuficiente");
+//        }
+//        else if ( nota == 5 ){
+//            System.out.println("suficiente");
+//        }
+//        else if ( nota == 6 ){
+//            System.out.println("bien");
+//        }
+//        else if ( nota == 7 || nota ==8 ){
+//            System.out.println("notable");
+//        }
+//        else if (nota == 9 || nota == 10 ) {
+//            System.out.println("exellente");
+//        }
+//        else {
+//            System.out.println("Error, nota solo es de 0 a 10");
+//        }
 
 //Exercicio 7
 //Demanar dia, mes i any per teclat i indicar si la data es correcte (suposant que tots els
-// els mesos tenen 30 dies)
+// mesos tenen 30 dies)
+
+
 
 //Exercicio 8
 //Repetir l'exercici anterior tenint en compte els dies que te cada mes.
+
+
 
 //Exercicio 9
 //Demanar tres numeros per teclat
