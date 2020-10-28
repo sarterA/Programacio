@@ -148,6 +148,8 @@
 //Demanar un numeor nota per teclat i dir si es insuficient (0-4), suficient (5), be (6),
 //notable(7,8) o excel·lent(9,10).
 
+
+
 //Exercicio 7
 //Demanar dia, mes i any per teclat i indicar si la data es correcte (suposant que tots els
 // els mesos tenen 30 dies)
