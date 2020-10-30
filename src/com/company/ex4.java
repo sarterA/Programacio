@@ -148,7 +148,7 @@
 //Demanar un numeor nota per teclat i dir si es insuficient (0-4), suficient (5), be (6),
 //notable(7,8) o excel·lent(9,10).
 
-//Scanner sc = new Scanner(System.in);
+//Scanners sc = new Scanner(System.in);
 //        System.out.println("introduzca una nota:");
 //        int nota = sc.nextInt();
 //
@@ -175,15 +175,45 @@
 //Demanar dia, mes i any per teclat i indicar si la data es correcte (suposant que tots els
 // mesos tenen 30 dies)
 
-
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("introduzca un dia:");
+//        int dia = sc.nextInt();
+//
+//
+//        System.out.println("introduzca un mes:");
+//        int mes = sc.nextInt();
+//
+//
+//        System.out.println("introduzca un año:");
+//        int año = sc.nextInt();
+//
+//        if (dia > 0 && dia <= 30 ){
+//                if (mes >= 1 && mes <= 12){
+//                        if (año >= 0 && año <= 2020){
+//                            System.out.println("Fecha valida");
+//                        }
+//                        else{
+//                            System.out.println("Fecha no valida");}
+//                }
+//                else{
+//                    System.out.println("Fecha no valida");
+//                }
+//        }
+//        else{
+//            System.out.println("Fecha no valida");
+//        }
 
 //Exercicio 8
 //Repetir l'exercici anterior tenint en compte els dies que te cada mes.
 
+//
 
 
 //Exercicio 9
-//Demanar tres numeros per teclat
+//Demanar tres numeros per teclat ordenats de major a menor.
+
+//Exercicio 10
+//
 
 
 

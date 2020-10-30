@@ -10,8 +10,6 @@ public class Main {
 
 
 
-
-
         //para executar cada actividade
 //        conditionals.exercici1;
 //        public static void exercici1(){}
