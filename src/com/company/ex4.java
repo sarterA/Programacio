@@ -206,14 +206,141 @@
 //Exercicio 8
 //Repetir l'exercici anterior tenint en compte els dies que te cada mes.
 
+//NO FUNCIONA
+
+//        Scanner sc = new Scanner(System.in);
 //
+//
+//        System.out.println("Introduzca un dia:");
+//        int dia = sc.nextInt();
+//
+//
+//        System.out.println("introduzca un mes:");
+//        int mes = sc.nextInt();
+//
+//
+//        System.out.println("introduzca un año:");
+//        int año = sc.nextInt();
+//
+//        int num_dia = 0;
+//
+//
+//        switch (mes) {
+//            case 1:
+//            case 3:
+//            case 5:
+//            case 7:
+//            case 8:
+//            case 10:
+//            case 12:
+//                num_dia = 31;
+//                break;
+//            case 4:
+//            case 6:
+//            case 9:
+//            case 11:
+//                num_dia = 30;
+//                break;
+//            case 2:
+//                num_dia = 28;
+//                break;
+//            default:
+//               System.out.println("\nEs incorrecto");
+//                break;
+//        }
+//        if ( dia == num_dia ){
+//            System.out.println("Fecha valida");
+//        }
+//        else {
+//            System.out.println("Fecha no valida");
+//        }
+//        if (mes >=1 && mes <= 12){
+//            System.out.println("Fecha valida");
+//        }
+//        else {
+//            System.out.println("Fecha no valida");
+//        }
+//        if (año >= 1500 && año <= 2020){
+//            System.out.println("Fecha valida");
+//        }
+//        else{
+//            System.out.println("Fecha no valida");
+//        }
 
 
 //Exercicio 9
-//Demanar tres numeros per teclat ordenats de major a menor.
+//Demanar tres numeros per teclat i mostrar-los per pantalla ordenats de major a menor.
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("introduzca primero numero:");
+//        int a = sc.nextInt();
+//        System.out.println("introduzca segundo numero:");
+//        int b = sc.nextInt();
+//        System.out.println("introduzca tercero numero:");
+//        int c = sc.nextInt();
+//
+//        System.out.println(" Numeros ordenados de mayor a menor:" );
+//
+//        if ( a < b ){ a += b; b = a - b; a -= b; }
+//        if ( a < c ){ a += c; c = a - c; a -= c; }
+//
+//        if ( b < c ){ b += c; c = b - c; b -= c; }
+//
+//        System.out.printf("\n%d %d %d", a, b, c);
+
+
 
 //Exercicio 10
+//A partir de lèdat d'una persona digues si és major d'edat o no.
+
+//   Scanner sc = new Scanner(System.in);
+//        System.out.println("introduzca una edad:");
+//        int edad = sc.nextInt();
 //
+//        if (edad <= 17 ){
+//            System.out.println( +edad+ " Es menor de edad");
+//
+//        }
+//        else{
+//            System.out.println( +edad+ " Es mayor de edad");
+//        }
+
+//Exercicio 11
+//Escriu un programa que, donat un enter el qual representa una quantitat de doblers,
+//ens indiqui amb quins bitllets i monedes es pot assolir aquesta quantitat. Els bitllets
+//i monedes de les quals disposam són: bittlets de 50€, 20€, 10€ i 5€, i monedes de 2€ i 1€.
+
+//Scanner sc = new Scanner(System.in);
+//        System.out.println("introduzca un valor:");
+//        double valor = sc.nextDouble();
+//
+//        int res = (int) (valor * 100);
+//
+//        if (res >= 5000 ){
+//            System.out.println("billetes de 50€: " +res/5000);
+//            res %= 5000;
+//        }
+//        if (res >= 2000 ){
+//            System.out.println("Billetes de 20€: " +res/2000);
+//            res %= 2000;
+//        }
+//        if (res >= 1000 ){
+//            System.out.println("Billetes de 10€: " +res/1000);
+//            res %= 1000;
+//        }
+//        if (res >= 500 ){
+//            System.out.println("Billetes de 5€: " +res/500);
+//            res %= 500;
+//        }
+//        if (res >= 200 ){
+//            System.out.println("Monedas de 2€: " +res/200);
+//            res %= 200;
+//        }
+//        if (res >= 100 ){
+//            System.out.println("Monedas de 1€: " +res/100);
+//            res %= 100;
+//        }
+
 
 
 
