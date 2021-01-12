@@ -1,12 +1,12 @@
 package com.company;
 
 public class Car {
-    public String color;
+    public Stringues color;
     public int weight;
     public int maxSpeed;
     public int force;
     public int numDoors;
-    public String id;
+    public Stringues id;
 
     public void brake(){
 

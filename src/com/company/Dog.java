@@ -1,12 +1,12 @@
 package com.company;
 
 public class Dog {
-    public String raza;
+    public Stringues raza;
     public int maxAge;
-    public String color;
+    public Stringues color;
     public int age;
-    public String chip;
-    public String dangerous;
+    public Stringues chip;
+    public Stringues dangerous;
 
 
 
@@ -21,7 +21,7 @@ public class Dog {
 
 }
     public void bite(){
-        dangerous = "yes";
+ //       dangerous = "yes";
     }
 }
    // Dog thor = new Dog();
