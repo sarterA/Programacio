@@ -6,7 +6,7 @@ public class Practica1 {
 //per part de l’usuari, implementi una s`erie de funcions. En concret, el programa
 //ha de disposar d’un men ́u que mostri a l’usuari un conjunt d’opcions i aquest
 //tri ̈ı la que vol executar.
-//Les opcions que s’han de poder aplicar al text s ́on:
+//Les opcions que s’han de poder aplicar al text śon:
 
 //1. Introduir un text nou.
 //2. Veure el text actual.
