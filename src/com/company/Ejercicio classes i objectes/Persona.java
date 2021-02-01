@@ -20,7 +20,7 @@ public class Persona {
         this.nom = "Cris";
     }
 
-    private String nom() {
+    public String getNom() {
         return this.nom();
     }
     public void printPersona(){
@@ -32,9 +32,7 @@ public class Persona {
 
     }
 
-    public String getNom() {
-        return null;
-    }
+    public String nom() { return null; }
     public String getEdat() {
         return null;
     }
