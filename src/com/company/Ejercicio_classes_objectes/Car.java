@@ -1,12 +1,12 @@
-package com.company;
+package com.company.Ejercicio_classes_objectes;
 
 public class Car {
-    public Stringues color;
+    public String color;
     public int weight;
     public int maxSpeed;
     public int force;
     public int numDoors;
-    public Stringues id;
+    public String id;
 
     public void brake(){
 

@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Ejercicios;
 
 import java.util.Scanner;
 
@@ -75,7 +75,7 @@ public class Bucles {
  //   }
 
     public static void exer4() {
-//llegeix numeros per teclat fins que s'introdueixi un que sigui multiple de 2.
+    //llegeix numeros per teclat fins que s'introdueixi un que sigui multiple de 2.
 
         Scanner sc = new Scanner(System.in);
         int counter = 0;
@@ -84,19 +84,15 @@ public class Bucles {
         do {
             System.out.println("Introduzca un numero:");
             numero = sc.nextInt();
-
         }
         while (numero % 2 != 0);
-
-
             System.out.println("Has introduzido un numero negativo");
 
-
     }
-
     public static void exer5() {
-//Demana numeros per teclat fins que s'introdueixi un numero negatiu. en acabar,
-//mostra per pantalla quants de numeros s'han introduit.'
+    //Demana numeros per teclat fins que s'introdueixi un numero negatiu. en acabar,
+    //mostra per pantalla quants de numeros s'han introduit.'
+        
     }
 
     public static void exer6() {

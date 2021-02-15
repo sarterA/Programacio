@@ -1,12 +1,12 @@
-package com.company;
+package com.company.Ejercicio_classes_objectes;
 
 public class Dog {
-    public Stringues raza;
+    public String raza;
     public int maxAge;
-    public Stringues color;
+    public String color;
     public int age;
-    public Stringues chip;
-    public Stringues dangerous;
+    public String chip;
+    public String dangerous;
 
 
 

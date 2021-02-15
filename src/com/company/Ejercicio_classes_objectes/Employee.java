@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Ejercicio_classes_objectes;
 
 /**
  * Crea la clase Employee con los atributos empId, name, SSN y salary.
@@ -24,5 +24,9 @@ public class Employee {
 
     public void setName(String name){ this.name = name; }
     public void setSalary(double salary){ this.salary = salary; }
+
+    public void printEmployee(){
+        System.out.println(empId + name + ssn + salary);
+    }
 
 }

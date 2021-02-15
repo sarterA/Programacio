@@ -1,10 +1,12 @@
-package com.company;
+package com.company.Practicas;
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
+// classes app, character, display, input, menu, text, word, main.
 
 public class  Practica1<opcion> {
+
 
 //Volem desenvolupar un programa que, a partir d’un text introdu ̈ıt per teclat
 //per part de l’usuari, implementi una s`erie de funcions. En concret, el programa
@@ -111,10 +113,10 @@ public class  Practica1<opcion> {
                 System.out.println("solo opciones de 1 a 10.");
         }
     }
-        while (opcion != 6);
+        //while (opcion != 6);
 
 
-        return opcion;
+        //return opcion;
 
 
 }

@@ -1,5 +1,7 @@
-package com.company;
+package com.company.Refactoritzacions_1;
 import java.util.Scanner;
+import com.company.Ejercicio_classes_objectes.Persona;
+
 public class extractMethod {
 
     public static void datos_persona(Persona persona1) {
