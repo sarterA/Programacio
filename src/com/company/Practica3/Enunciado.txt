@@ -1,0 +1,37 @@
+Pràctica 3 - Fitxers 
+
+En aquesta pràctica volem gestionar una tenda en l ́ınia per poder crear, veure,
+editar i eliminar els seus articles i emmagazemar-los en fitxers per que la informació estigui sempre disponigle.
+Cada un d’aquests articles de la tenda tendrà
+
+
+un nom, una descripció, un preu i una quantitat en stock. A més, pertenyarà a una categoria determinada
+(de les que n’hi haurà quatre). Algunes de les especificacions que ha de complir l’aplicació, referents als articles,
+son les seguents:
+
+• Inserir.
+• Eliminar.
+• Llegir.
+• Incrementar o disminuir l’stock.
+• Modificar les dades.
+• Marcar com a disponible o no disponible.
+
+Per altra banda, l’aplicació tendrà diferents rols (administrador o client), que podran dur a terme unes operacions
+especìfiques. En concret:
+
+Operacions reservades per a l’usuari administrador:
+
+• Inserir.
+• Editar.
+• Modificar (canviar la quantitat en stock, editar les dades o actualitzar la seva disponibilitat).
+
+Operacions per a qualsevol tipus d’usuari:
+
+• Llegir.
+
+Per aquesta operació s’ha de tenir en compte que un client només pot veure els articles que estan marcats com a
+disponibles. A més, per a qualsevol tipus d’usuari, s’ha de poder filtrar per categoria (o mostrar-los de totes
+sense distinció, sempre fins a un màxim de 10) i s’han de poder mostrar ordenats per preu (tant de major a menor
+com de menor a major). Tota aquesta informació s’ha d’emmagatzemar en fitxers d’accés aleatori per que
+estigui disponible en qualsevol moment que es vulgui executar l’aplicació. Es valorarà un disseny orientat a objectes
+adequat, així com un ús adient de les tècniques, classes i interfícies vistes a classe durant aquest trimestre.

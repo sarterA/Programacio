@@ -1,4 +1,4 @@
-package com.company.Ejercicios;
+package com.company.Excepcions;
 
 import java.io.File;
 import java.io.IOException;

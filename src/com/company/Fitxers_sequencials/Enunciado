@@ -1,0 +1,25 @@
+1. Una pel·l ́ıcula es caracteritza per un t ́ıtol, el nom del director i l’any
+
+d’estrena. Escriu un programa que sigui capa ̧c d’emmagatzemar tres re-
+gistres d’aquest tipus dins un fitxer i despr ́es recuperar-los per mostrar-los
+
+per pantalla.
+Proposa una soluci ́o amb les classes BufferedReader i BufferedWriter.
+2. Amplia l’exercici anterior per que una pel·l ́ıcula pugui tenir tamb ́e el
+g`enere al qu`e pertany. Aquest g`enere  ́es un valor enumerat que pot
+ser un dels seg ̈uents: ACCIO, AUTOR, CIFI, COM  ́ EDIA, DRAMA, `
+POLIC ́IACA i TERROR.
+Desenvolupa un programa que pugui emmagatzemar tres registres a un
+fitxer i que despr ́es els llegeixi per mostrar-los per pantalla.
+
+Proposa una soluci ́o emprant les classes ObjectOutputStream i ObjectIn-
+putStream.
+
+3. A partir d’un fixter que contengui registres de tipus Pel·l ́ıcula (tant de
+l’exercici 1 com de l’exercici 2) desenvolupa un programa els llegeixi i que
+
+els guardi en 7 fitxers diferents, un per cada g`enere (ACCIO.txt, AU-
+TOR.txt, etc).
+
+Per cada exercici, valora crear una classe que s’encarregui de totes les
+operacions relacionades amb els fitxers.
